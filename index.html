@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>SRM EVENT MANAGEMENT</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+ </head>
+ <body class="bg-gray-50">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+   <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <a href="#" class="text-xl font-bold text-indigo-600">SRM EVENTS</a>
+    <ul class="flex space-x-6">
+     <li><a href="#" class="text-gray-600 hover:text-indigo-600">Home</a></li>
+     <li><a href="/events.html" class="text-gray-600 hover:text-indigo-600">Events</a></li>
+     <li><a href="/about.html" class="text-gray-600 hover:text-indigo-600">About</a></li>
+     <li><a href="#" class="text-gray-600 hover:text-indigo-600">Contact</a></li>
+    </ul>
+    <a href="/create.html" class="bg-indigo-600 text-white py-2 px-4 rounded hover:bg-indigo-500">Create Event</a>
+   </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="bg-indigo-600 text-white py-20">
+   <div class="container mx-auto px-4 text-center">
+    <h1 class="text-4xl font-bold mb-4">Manage Your Events Seamlessly</h1>
+    <p class="text-lg mb-6">Plan, promote, and track events effortlessly with EventPro.</p>
+    <a href="/create.html" class="bg-white text-indigo-600 py-3 px-6 rounded font-semibold hover:bg-gray-100">Get Started</a>
+   </div>
+  </section>
+
+  <!-- Event Listing -->
+  <section class="py-16">
+   <div class="container mx-auto px-4">
+    <h2 class="text-3xl font-bold text-gray-800 text-center mb-8">Upcoming Events</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+     <!-- Event Card 1 -->
+     <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img src="https://via.placeholder.com/400x200" alt="Event Image" class="w-full h-48 object-cover" />
+      <div class="p-4">
+       <h3 class="text-xl font-bold text-gray-800 mb-2">Tech Conference 2024</h3>
+       <p class="text-gray-600">Join us for a day of insightful talks and networking with industry leaders.</p>
+       <a href="#" class="block text-indigo-600 font-semibold mt-4">Learn More</a>
+      </div>
+     </div>
+
+     <!-- Event Card 2 -->
+     <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img src="https://via.placeholder.com/400x200" alt="Event Image" class="w-full h-48 object-cover" />
+      <div class="p-4">
+       <h3 class="text-xl font-bold text-gray-800 mb-2">Music Fest 2024</h3>
+       <p class="text-gray-600">Experience live performances from top artists in a night of music and fun.</p>
+       <a href="#" class="block text-indigo-600 font-semibold mt-4">Learn More</a>
+      </div>
+     </div>
+
+     <!-- Event Card 3 -->
+     <div class="bg-white shadow-md rounded-lg overflow-hidden">
+      <img src="https://via.placeholder.com/400x200" alt="Event Image" class="w-full h-48 object-cover" />
+      <div class="p-4">
+       <h3 class="text-xl font-bold text-gray-800 mb-2">Art Expo 2024</h3>
+       <p class="text-gray-600">Explore the latest art from local and international artists at the annual Art Expo.</p>
+       <a href="#" class="block text-indigo-600 font-semibold mt-4">Learn More</a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8">
+   <div class="container mx-auto px-4 text-center">
+    <p>&copy; 2024 EventPro. All rights reserved.</p>
+   </div>
+  </footer>
+ </body>
+</html>
